@@ -27,7 +27,7 @@ The license in short:
 >   - Followed by a report to the store owner
 >   - Followed by a lawyer some weeks later if not answer/action.
 > 
-> _"I don't want to be rich, but I don't want my family to be hungry or in debt."_ 
+> "_I don't want to be rich, but universal salary don't existe_ 😋." 
 > 
 > In hope that my work & research are useful to you.
 > 
