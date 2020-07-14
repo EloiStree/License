@@ -1,7 +1,6 @@
 If you are on this link/file, it means that you are using one of my tools/codes/researches,     
 and you are wondering what commercial license is applied to it.  
   
-You can buy a life-time commercial license on my Ko-Fi page:   
 - About: https://ko-fi.com/eloistree 
 - Buy: https://ko-fi.com/s/8d6fbcc3a1
 - Toolbox: https://eloistree.page.link/toolbox
