@@ -1,0 +1,16 @@
+{                                                                                
+    "name":           "be.eloistree.licensereminder",                              
+    "displayName":    "Eloi Stree License",                        
+    "version":        "0.0.1",                         
+    "unity":          "2018.1",                             
+    "unityRelease":   "",                             
+    "description":    "Hello my friend, if you have this package in your project it means that you are using one of my toolbox. Find more information in the files linked to this package. ### All my codes and applications are under a LifeTime Ko-Fi License:  https://ko-fi.com/s/8d6fbcc3a1 In short: All is open and free under 'beerware license', but if you make money of my works you need to buy a 50€ lifetime license that give you the right of use on all my productions.",                         
+    "keywords":       ["Script","Tool"],                       
+    "dependencies":{  }, 
+    "author" : {
+          "name":"Eloi Stree",
+          "mail":"eloistree@gmail.com",
+          "url":"https://eloistree.page.link/discord"
+      },    
+          "category": "Script"                   
+  } 
