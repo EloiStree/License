@@ -1,7 +1,6 @@
 If you are on this link/file, it means that you are using one of my tools/codes/researches,     
 and you are wondering what commercial license is applied to it.  
   
-You can buy a life-time commercial license on my Ko-Fi page:   
 - About: https://ko-fi.com/eloistree 
 - Buy: https://ko-fi.com/s/8d6fbcc3a1
 - Toolbox: https://eloistree.page.link/toolbox
@@ -28,7 +27,7 @@ The license in short:
 >   - Followed by a report to the store owner
 >   - Followed by a lawyer some weeks later if not answer/action.
 > 
-> _"I don't want to be rich, but I don't want my family to be hungry or in debt."_ 
+> "_I don't want to be rich, but universal salary don't existe_ 😋." 
 > 
 > In hope that my work & research are useful to you.
 > 
