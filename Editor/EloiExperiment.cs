@@ -6,7 +6,7 @@ using UnityEngine;
 public class EloiExperiment : MonoBehaviour
 {
     public const string EDITORMENUSTART = "ꬲ🧰";
-    public const string INFOMENU = "Info on ꬲ🧰";
+    public const string INFOMENU = "✋ Hi you...";
    
     [MenuItem(EDITORMENUSTART + "/"+ INFOMENU + "/💲 Applied License", false, 10000)]
     static void License()
@@ -18,7 +18,7 @@ public class EloiExperiment : MonoBehaviour
     [MenuItem(EDITORMENUSTART + "/" + INFOMENU + "/❗ Information", false, 9996)]
     static void Contact()
     {
-        Application.OpenURL("https://eloistree.page.link/contact");
+        Application.OpenURL("https://eloistree.page.link/whoami");
     }
     [MenuItem(EDITORMENUSTART + "/" + INFOMENU + "/🐞 Bug + Issue", false, 9997)]
     static void Issue()
@@ -30,15 +30,26 @@ public class EloiExperiment : MonoBehaviour
     {
         Application.OpenURL("https://eloistree.page.link/discord");
     }
-    [MenuItem(EDITORMENUSTART + "/" + INFOMENU + "/📡 RSS Stay Tuned", false, 9999)]
-    static void RSS()
+    [MenuItem(EDITORMENUSTART + "/" + INFOMENU + "/📡 Git News", false, 9999)]
+    static void GitHubNEWS()
     {
-        Application.OpenURL("https://eloistree.page.link/rss");
+        Application.OpenURL("https://eloistree.page.link/github");
     }
     [MenuItem(EDITORMENUSTART + "/☕ Ko-Fi", false, 10001)]
     static void KoFi()
     {
         Application.OpenURL("https://eloistree.page.link/donation");
+    }
+    
+    [MenuItem(EDITORMENUSTART + "/🧰 How to use...", false, 10002)]
+    static void HowToUse()
+    {
+        Application.OpenURL("https://eloistree.page.link/usemyunitytoolboxes");
+    }
+    //[MenuItem(EDITORMENUSTART + "/" + INFOMENU + "/ Yo !", false, 10003)]
+    static void WhoAmI()
+    {
+        Application.OpenURL("https://eloistree.page.link/whoami");
     }
 
 }
