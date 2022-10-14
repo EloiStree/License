@@ -8,7 +8,6 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Impact
   fontNames:
   - Impact
   fallbackFontReferences: []
@@ -18,5 +17,5 @@ TrueTypeFontImporter:
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
   userData: 
-  assetBundleName: 
+  assetBundleName: 2a7189b57448196d6ac1f6dddebfb57ebb1c482320e3cd0321ce2345b5b210b1
   assetBundleVariant: 
