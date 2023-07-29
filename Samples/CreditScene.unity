@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -118,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -200,6 +202,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -262,6 +265,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1305977554
 Canvas:
   m_ObjectHideFlags: 0
@@ -293,6 +297,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1877825149}
   m_Father: {fileID: 0}
@@ -333,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -365,6 +371,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -379,6 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1861003927}
   - component: {fileID: 1861003926}
+  - component: {fileID: 1861003928}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -445,6 +453,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1861003927
@@ -457,10 +466,31 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1861003928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861003925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!224 &1877825149 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1685556539269842569, guid: 810b6ad6edea97d4790423977bec315c,
@@ -538,7 +568,7 @@ PrefabInstance:
     - target: {fileID: 1685556537336760397, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: https://eloistree.page.link/github
+      value: https://github.com/eloistree
       objectReference: {fileID: 0}
     - target: {fileID: 1685556537735363491, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
@@ -578,8 +608,7 @@ PrefabInstance:
     - target: {fileID: 1685556537735363500, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
       propertyPath: m_Text
-      value: "Created by \n\xC9loi Str\xE9e\n\nHope you enjoy. \n\nFree 4 !profitable
-        use.\n\nOpen Source Code(s)\nOn GitHub\n"
+      value: "Created by \n\xC9loi Str\xE9e\n\nContact & License on\ngithub.com/eloistree\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1685556537735363500, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
@@ -605,6 +634,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685556538373655925, guid: 810b6ad6edea97d4790423977bec315c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685556538373655926, guid: 810b6ad6edea97d4790423977bec315c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685556538373655926, guid: 810b6ad6edea97d4790423977bec315c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685556538373655926, guid: 810b6ad6edea97d4790423977bec315c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685556538373655926, guid: 810b6ad6edea97d4790423977bec315c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 9.523804
       objectReference: {fileID: 0}
     - target: {fileID: 1685556538566868340, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
@@ -674,9 +728,7 @@ PrefabInstance:
     - target: {fileID: 1685556539092949661, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
       propertyPath: m_Text
-      value: 'May the code be with you !
-
-        Have fun with my works.'
+      value: Download  other apps & code
       objectReference: {fileID: 0}
     - target: {fileID: 1685556539269842568, guid: 810b6ad6edea97d4790423977bec315c,
         type: 3}
