@@ -1,8 +1,8 @@
 # Hello there 👋
 ![image](https://user-images.githubusercontent.com/20149493/120363687-b80fd000-c30c-11eb-8b1f-848e74e308ec.png)
 
-If you are here, it means that you are wondering about the license on one of my code or works in general.
-By default all my work is under a variation of the [Beerware License](https://en.wikipedia.org/wiki/Beerware).
+If you are here, it means that you are wondering about the license on one of my code or works in general.  
+By default all my work is under a variation of the [Beerware License](https://en.wikipedia.org/wiki/Beerware).  
 
 ```
 /*
