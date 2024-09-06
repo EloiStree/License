@@ -9,16 +9,18 @@
   "keywords": ["Script","Tool"],                       
   "dependencies":{},     
   "relatedPackages":{},     
-  "samples" : [
-      {
-        "displayName":"Default Credit Screen" ,
-        "description":"Access a default credit screen." ,
-        "path":"Scene/Demo"
-    }],    
-  "author" : {
-"name":"Eloi Stree",
-"mail":"",
-"url":"https://github.com/EloiStree"},     
+ "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  },      
   "repository":{
 "type":"Git",
 "url":"https://github.com/EloiStree/License.git",

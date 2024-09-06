@@ -1,10 +1,12 @@
 
 {                                                                   
-            "name": "be.eloistree.generallicense",          
-    "references": [
+            "name": "be.elab.generallicenseEditor",          
+    "references": ["be.elab.generallicense"
 ],                                                              
     "optionalUnityReferences": [],                                  
-    "includePlatforms": [],                                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
     "excludePlatforms": [],                                         
     "allowUnsafeCode": false,                                       
     "overrideReferences": false,                                    
