@@ -22,5 +22,5 @@ By default all my work is under a variation of the [Beerware License](https://en
 **Donation page:**   
 - Paypal: https://www.paypal.me/eloistree  
 - Coffee: https://ko-fi.com/eloistree  
-- Invest in my Integer Games: https://www.patreon.com/integergames  
+- Invest in my Integer Games: https://www.patreon.com/eloiteaching  
 - Ethereum: https://etherscan.io/address/0xDa3239C8ad5C321A1411F3acC2C1f9F8C9D34ECE  
