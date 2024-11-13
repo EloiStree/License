@@ -15,6 +15,7 @@ By default all my work is under a variation of the [Beerware License](https://en
  * send me a good 🍺 or a 🍕 at
  *  - https://www.patreon.com/eloiteaching
  * May the code be with you.
+ * Updated version: https://github.com/EloiStree/License
  * ----------------------------------------------------------------------------
  */
 ```
