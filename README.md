@@ -14,11 +14,13 @@ By default all my work is under a variation of the [Beerware License](https://en
  * If you think my code made you win a day of work,
  * send me a good 🍺 or a 🍕 at
  *  - https://www.patreon.com/eloiteaching
- * May the code be with you.
- * Updated version: https://github.com/EloiStree/License
+ * 
+ * You can also support my work by building your own DIY input using Amazon links:
+ * - https://github.com/EloiStree/HelloInput
  *
- * You can also support my work by creating your own input from amazon links:
- * - https://github.com/EloiStree/HelloInput 
+ * May the code be with you.
+ *
+ * Updated version: https://github.com/EloiStree/License
  * ----------------------------------------------------------------------------
  */
 ```
