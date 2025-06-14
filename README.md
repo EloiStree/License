@@ -15,9 +15,6 @@ By default all my work is under a variation of the [Beerware License](https://en
  * send me a good 🍺 or a 🍕 at
  *  - https://buymeacoffee.com/apintio
  * 
- * You can also support my work by building your own DIY input using Amazon links:
- * - https://github.com/EloiStree/HelloInput
- *
  * May the code be with you.
  *
  * Updated version: https://github.com/EloiStree/License
